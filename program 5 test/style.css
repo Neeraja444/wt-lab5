@@ -1,0 +1,229 @@
+*
+body{
+padding: 0;
+margin: 0;
+font-size: sans-serif;
+box-sizing: border-box;
+background-size: cover;
+}
+.column {
+    float:left;
+    width: 27%;
+height: 300px;
+margin-block-start: auto;
+text-align-last:left; 
+color: rgb(219, 97, 97);
+}
+
+.column p {
+    font-size:20px;
+    font-weight:bold;
+}
+
+footer {
+    padding-top: inherit;
+}
+
+.box{
+    width:300px;
+    padding:30px;
+    position: absolute;
+    top:0%;
+    left:50%;
+    transform: translate(-10%,10%);
+    background: rgba(0,0,0,0,4);
+    text-align:center;
+}
+.box h1
+{
+    color: rgb(216, 196, 83);
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.box input[type="text"],.box input[type="password"]
+{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border:3px solid #d47972;
+    padding:14px 10px;
+    width:20px;
+    height:20px;
+    outline:none;
+    color: rgb(117, 47, 26);
+    border-radius: 24px;
+    transition: 0.25px;
+}
+::placeholder {
+    color: rgb(216, 110, 110);
+    opacity: 1;
+  }
+.box input[type="text"]:focus,.box input[type="password"]:focus{
+    width:270px;
+    border-color:#e4a689;
+}
+.box input[type="submit"]
+{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border:3px solid #e7c1af;
+    padding:14px 35px;
+    outline:none;
+    color: rgb(212, 201, 99);
+    border-radius: 24px;
+    transition: 0.25px;
+    cursor:pointer;  
+}
+.box input[type="submit"]:hover{
+    background: #e44b4b;
+}
+
+body
+{
+    background: url("https://media.geeksforgeeks.org/wp-content/uploads/20210402235143/background.jpg");
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif
+}
+
+.menu-bar
+{
+    background: rgb(223, 75, 75);
+    text-align: center;
+}
+.menu-bar ul
+{
+    display:inline-flex;
+    list-style: none;
+    color: rgb(248, 2, 2);
+}
+.menu-bar ul li
+{
+    width: 120px;
+    margin: 15px;
+    padding: 15px;
+}
+.menu-bar ul li a
+{
+    text-decoration: none;
+    color: rgb(117, 47, 26);
+}
+
+.menu-bar .fa
+{
+    margin-right: 8px;
+}
+.sub-menu-1
+{
+    display: none;
+}
+
+body {
+    background-color: rgb(228, 194, 100);
+  }
+  h1 {
+    color: rgb(117, 47, 26);
+    margin-right: 30px;
+  }
+
+  h2{
+      color:rgb(117, 47, 26);
+  }
+  a:link {
+    color: rgb(117, 47, 26);
+}
+
+
+a:visited {
+    color: green;
+}
+
+
+a:hover {
+    color: hotpink;
+}
+
+a.one:link {color:#ff0000;}
+a.one:visited {color:#e4d582;}
+a.one:hover {color: #e4d582;}
+
+a.two:link {color:#ff0000;}
+a.two:visited {color:#0000ff;}
+a.two:hover {font-size:150%;}
+
+a.three:link {color:#ff0000;}
+a.three:visited {color:#0000ff;}
+a.three:hover {background:#66ff66;}
+
+a.four:link {color:#ff0000;}
+a.four:visited {color:#0000ff;}
+a.four:hover {font-family:monospace;}
+
+a.five:link {color:#ff0000;text-decoration:none;}
+a.five:visited {color:#0000ff;text-decoration:none;}
+a.five:hover {text-decoration:underline;}
+
+
+
+a:active {
+    color: rgb(233, 76, 76);
+}
+a:link, a:visited {
+    background-color: rgb(223, 214, 94);
+    color: rgb(117, 47, 26);
+    border: 2px solid rgb(18, 85, 228);
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  a:hover, a:active {
+    background-color: rgb(110, 81, 190);
+    color: white;
+  }
+  ol {
+    background: #ff9999;
+    padding: 20px;
+  }
+  
+  ul {
+    background: rgb(223, 214, 94);
+    padding: 20px;
+  }
+  
+  ol li {
+    background: #ffe5e5;
+    padding: 5px;
+    margin-left: 35px;
+  }
+  
+  ul li {
+    background: #d84c4c;
+    margin: 5px;
+  }
+  
+  div {
+    background: rgb(182, 66, 66);
+    padding: 10px;
+  }
+  
+  div.first {
+    background: rgba(175, 76, 76, 0.1);
+  }
+  
+  div.second {
+    background: rgba(175, 76, 76, 0.3);
+  }
+  
+  div.third {
+    background: rgba(175, 76, 76, 0.6);
+  }
+
+
+  
